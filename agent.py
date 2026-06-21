@@ -27,8 +27,8 @@ from uagents_core.contrib.protocols.chat import (
 # ---------------------------------------------------------------------------
 # Configuration (all overridable via environment / .env)
 # ---------------------------------------------------------------------------
-AGENT_SEED = os.environ.get("AGENT_SEED", "claude-code-spawner-seed-change-me")
-AGENT_NAME = os.environ.get("AGENT_NAME", "claude_code_spawner")
+AGENT_SEED = os.environ.get("AGENT_SEED", "baba-babooshka-seed-change-me")
+AGENT_NAME = os.environ.get("AGENT_NAME", "baba_babooshka")
 AGENT_PORT = int(os.environ.get("AGENT_PORT", "8000"))
 
 # Directory Claude Code runs in. Defaults to the current working directory.
